@@ -415,7 +415,7 @@ class Metar(object):
           raise err
       if self._unparsed_groups:
           code = ' '.join(self._unparsed_groups)
-          #raise ParserError("Unparsed groups in body: "+code)
+          raise ParserError("Unparsed groups in body: "+code)
 
   def _do_trend_handlers(self, code):
       for pattern, handler, repeatable in Metar.trend_handlers:
