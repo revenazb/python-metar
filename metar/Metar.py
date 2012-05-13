@@ -133,7 +133,7 @@ TREND_RE = re.compile(r"^(?P<trend>TEMPO|BECMG|FCST|NOSIG)\s+")
 
 TRENDTIME_RE = re.compile(r"(?P<when>(FM|TL|AT))(?P<hour>\d\d)(?P<min>\d\d)\s+")
 
-REMARK_RE = re.compile(r"^(RMKS?|NOSPECI|NOSIG)\s+")
+REMARK_RE = re.compile(r"^(RMKS?|K|MK|NOSPECI|NOSIG)\s+")
 
 ## regular expressions for remark groups
 
