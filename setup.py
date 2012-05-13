@@ -36,7 +36,7 @@ in international reports are accepted."""
 
 setup(
     name="metar",
-    version="1.4.0",
+    version="1.4.1",
     author="Tom Pollard",
     author_email="pollard@alum.mit.edu",
     url="http://python-metar.sourceforge.net/",
